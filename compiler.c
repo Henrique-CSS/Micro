@@ -6,7 +6,7 @@ int main()
     FILE *filePointer;
     char ch;
 
-    filePointer = fopen("test.ms", "r");
+    filePointer = fopen("test.txt", "r");
 
     if (filePointer == NULL)
     {
