@@ -1,17 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int IntId;
-char IntName[10][100];
-int IntValue[100];
-int IntNewVar(int value, char *Name)
-{
-    IntId++;
-    int Id = IntId;
-    scanf("%100s", IntName[Id]) = Name;
-    IntValue[Id] = value;
-}
-
 int main()
 {
     FILE *filePointer;
@@ -39,26 +28,6 @@ int main()
                         {
                             ch = getc(filePointer);
                             printf("ABCDEFGHIJKLOMNOPQRSTUVWXYZ");
-                        }
-                    }
-                }
-                if (ch == 'i' || ch == 'I')
-                {
-                    ch = getc(filePointer);
-                    if (ch == 'n' || ch == 'N')
-                    {
-                        ch = getc(filePointer);
-                        if (ch == 't' || ch == 'T')
-                        {
-                            ch = getc(filePointer);
-                            if (ch == ' '){
-                                int IntVar = 0;
-                                int IntCount = 0;
-                                ch = getc(filePointer);
-                                while (ch != ';'){
-                                    
-                                }
-                            }
                         }
                     }
                 }
